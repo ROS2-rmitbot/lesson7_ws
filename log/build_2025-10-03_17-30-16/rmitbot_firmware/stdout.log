@@ -1,0 +1,7 @@
+[100%] Built target rmitbot_firmware
+-- Install configuration: ""
+-- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/rmitbot_interface.xml
+-- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/lib/librmitbot_firmware.so
+-- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/include
+-- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/include/rmitbot_firmware
+-- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/include/rmitbot_firmware/rmitbot_interface.hpp

@@ -32,12 +32,6 @@ def generate_launch_description():
                      "robot_description": robot_description}],
         )
     
-    # Publish the joint state TF - Not needed with a controller
-    joint_state_publisher_gui = Node(
-        package='joint_state_publisher_gui',
-        executable='joint_state_publisher_gui',
-    )
-    
     # This node launches RViz2 with the specified configuration file
     rviz = Node(
         package='rviz2',
@@ -50,6 +44,5 @@ def generate_launch_description():
     
     return LaunchDescription([
         robot_state_publisher, 
-        # joint_state_publisher_gui,
         rviz, 
     ])

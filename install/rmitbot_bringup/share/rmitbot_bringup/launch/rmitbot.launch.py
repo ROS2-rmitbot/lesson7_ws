@@ -54,14 +54,15 @@ def generate_launch_description():
             "launch", "teleopkeyboard.launch.py"
         ),
         launch_arguments={
-            "use_sim_time": "True"
+            "use_sim_time": "False"
         }.items()
     )
     
     return LaunchDescription([
-        display, 
-        # hardware, 
+        display,
+        # hardware,
         # gazebo,
-        # controller_delayed, 
+        # controller_delayed,
+        controller, 
         teleopkeyboard,
     ])

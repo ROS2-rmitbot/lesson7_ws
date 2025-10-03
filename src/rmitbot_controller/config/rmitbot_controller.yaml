@@ -1,13 +1,16 @@
 controller_manager:
   ros__parameters:
     update_rate: 100  # in Hz
-    # use_sim_time: true # real hardware does not use sim_time
+    use_sim_time: false #true
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
     mecanum_drive_controller:
       type: mecanum_drive_controller/MecanumDriveController
+
+    imu_sensor_broadcaster:
+      type: imu_sensor_broadcaster/IMUSensorBroadcaster
 
 mecanum_drive_controller:
   ros__parameters: 
@@ -23,3 +26,8 @@ mecanum_drive_controller:
     base_frame_id: "base_footprint"
     odom_frame_id: "odom"
     enable_odom_tf: true
+
+imu_sensor_broadcaster:
+  ros__parameters:
+    sensor_name: "imu_sensor"
+    frame_id:  "imu_link"
