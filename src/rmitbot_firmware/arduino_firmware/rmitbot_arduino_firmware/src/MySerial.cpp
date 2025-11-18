@@ -99,5 +99,5 @@ void parseCommand(const String &msg)
     Serial.println("parseCommand: expected 4 tab-separated values");
   }
 }
-
+// <100 \t 0 \t 0 \t 0>
 

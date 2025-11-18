@@ -1,0 +1,61 @@
+[0.019s] Invoking command in '/home/v120506/rmitbot_v4/lesson7_ws/build/rmitbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/v120506/rmitbot_v4/lesson7_ws/build/rmitbot_firmware -- -j8 -l8
+[0.062s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.277s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.320s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.330s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.457s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.461s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.492s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.554s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.569s] -- Found hardware_interface: 4.38.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[0.732s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.899s] -- Configuring done (0.8s)
+[0.929s] -- Generating done (0.0s)
+[0.932s] -- Build files have been written to: /home/v120506/rmitbot_v4/lesson7_ws/build/rmitbot_firmware
+[0.975s] [ 50%] [32mBuilding CXX object CMakeFiles/rmitbot_firmware.dir/src/rmitbot_interface.cpp.o[0m
+[3.257s] [01m[K/home/v120506/rmitbot_v4/lesson7_ws/src/rmitbot_firmware/src/rmitbot_interface.cpp:[m[K In member function ‘[01m[Kvirtual rmitbot_firmware::CallbackReturn rmitbot_firmware::RmitbotInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[3.257s] [01m[K/home/v120506/rmitbot_v4/lesson7_ws/src/rmitbot_firmware/src/rmitbot_interface.cpp:21:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.258s]    21 | [01;35m[Krface::SystemInterface::on_init(hardware_info)[m[K;
+[3.258s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[3.258s] 
+[3.258s] In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+[3.258s]                  from [01m[K/home/v120506/rmitbot_v4/lesson7_ws/src/rmitbot_firmware/include/rmitbot_firmware/rmitbot_interface.hpp:7[m[K,
+[3.258s]                  from [01m[K/home/v120506/rmitbot_v4/lesson7_ws/src/rmitbot_firmware/src/rmitbot_interface.cpp:1[m[K:
+[3.258s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:226:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.258s]   226 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info)
+[3.258s]       |                          [01;36m[K^~~~~~~[m[K
+[5.403s] [100%] [32m[1mLinking CXX shared library librmitbot_firmware.so[0m
+[5.641s] [100%] Built target rmitbot_firmware
+[5.650s] Invoked command in '/home/v120506/rmitbot_v4/lesson7_ws/build/rmitbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/v120506/rmitbot_v4/lesson7_ws/build/rmitbot_firmware -- -j8 -l8
+[5.651s] Invoking command in '/home/v120506/rmitbot_v4/lesson7_ws/build/rmitbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/v120506/rmitbot_v4/lesson7_ws/build/rmitbot_firmware
+[5.657s] -- Install configuration: ""
+[5.657s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/rmitbot_interface.xml
+[5.658s] -- Installing: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/lib/librmitbot_firmware.so
+[5.659s] -- Set non-toolchain portion of runtime path of "/home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/lib/librmitbot_firmware.so" to ""
+[5.659s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/include
+[5.659s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/include/rmitbot_firmware
+[5.659s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/include/rmitbot_firmware/rmitbot_interface.hpp
+[5.659s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/library_path.sh
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/library_path.dsv
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/ament_index/resource_index/package_run_dependencies/rmitbot_firmware
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/ament_index/resource_index/parent_prefix_path/rmitbot_firmware
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/ament_prefix_path.sh
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/ament_prefix_path.dsv
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/path.sh
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/path.dsv
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.bash
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.sh
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.zsh
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.dsv
+[5.660s] -- Installing: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.dsv
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/ament_index/resource_index/packages/rmitbot_firmware
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rmitbot_firmware
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.660s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/rmitbot_firmwareConfig.cmake
+[5.661s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/rmitbot_firmwareConfig-version.cmake
+[5.661s] -- Up-to-date: /home/v120506/rmitbot_v4/lesson7_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.xml
+[5.661s] Invoked command in '/home/v120506/rmitbot_v4/lesson7_ws/build/rmitbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/v120506/rmitbot_v4/lesson7_ws/build/rmitbot_firmware
